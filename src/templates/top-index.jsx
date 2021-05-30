@@ -15,6 +15,7 @@ import fileNameToSectionName from "utils/fileNameToSectionName";
 
 import "../style/main.scss";
 
+
 /**
  * get file name list from content/sections folder
  */
@@ -38,7 +39,6 @@ export const query = graphql`
             href
             imageFileName
           }
-          content
           copyright
           header
           email
@@ -69,19 +69,8 @@ export const query = graphql`
             medium
             twitter
           }
-          subheader
-          teamMember {
-            header
-            imageFileName
-            social {
-              facebook
-              github
-              linkedin
-              medium
-              twitter
-            }
-            subheader
-          }
+          
+          
           telephone
           termsHref
           termsText
@@ -91,7 +80,6 @@ export const query = graphql`
             header
             imageContent
             imageFileName
-            subheader
           }
         }
         fields {

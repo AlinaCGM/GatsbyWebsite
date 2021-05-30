@@ -7,6 +7,7 @@ import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 import nl2br from "utils/nl2br";
 
+
 import "./About.scss";
 
 const About = ({ className, frontmatter }) => {

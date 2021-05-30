@@ -37,11 +37,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       jumpToAnchorText: String
       social: Social
       services: [Service]
-      teamMember: [TeamMember]
     }`,
-    `type TeamMember {
-      social: Social
-    }`,
+
     `type Service {
       iconName: String
       imageFileName: String
