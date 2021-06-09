@@ -26,6 +26,13 @@ const Services = ({ className, frontmatter }) => {
           </Col>
         ))}
       </Row>
+      <Row className="text-center">
+        {services.map((service) => (
+          <Col md={4} key={service.header}>
+            <ServiceItem {...service} />
+          </Col>
+        ))}
+      </Row>
     </PageSection>
   );
 };

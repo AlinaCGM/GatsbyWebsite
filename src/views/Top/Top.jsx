@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import { Button } from "react-bootstrap";
 import useSmoothScrollTo from "hooks/useSmoothScrollTo";
 import ImageCard from "components/ImageCard";
-import Logo from "content/assets/images/logos/cardent.jpg";
 
 const Top = ({ frontmatter }) => {
   if (!frontmatter) {
@@ -21,22 +20,17 @@ const Top = ({ frontmatter }) => {
       <Button size="xl" variant="primary" className="text-uppercase" onClick={scrollToSection}>
         {jumpToAnchorText}
       </Button>
-      
     );
-    <Logo/>
   }
 
   return (
-    
     <ImageCard
       imageFileName={imageFileName}
       header={header}
       subheader={subheader}
       extraInfo={extraInfoPart}
     />
-    
   );
-
 };
 
 Top.propTypes = {

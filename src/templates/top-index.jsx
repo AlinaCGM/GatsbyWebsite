@@ -62,6 +62,12 @@ export const query = graphql`
             iconName
             imageFileName
           }
+          services {
+            content
+            header
+            iconName
+            imageFileName
+          }
           social {
             facebook
             github

@@ -1,4 +1,4 @@
 ---
-brand: "Logo"
+brand: "Start Bootstrap"
 menuText: "メニュー "
 ---
