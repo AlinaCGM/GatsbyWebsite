@@ -32,13 +32,16 @@ exports.createSchemaCustomization = ({ actions }) => {
   const typeDefs = [
     "type MarkdownRemark implements Node { frontmatter: Frontmatter }",
     `type Frontmatter {
-      brand: String
+      brand: Brand
       anchor: String
       jumpToAnchor: String
       jumpToAnchorText: String
       social: Social
       services: [Service]
     }`,
+    `type Brand { 
+      imageFileName: String 
+    }`
 
     `type Service {
       iconName: String
