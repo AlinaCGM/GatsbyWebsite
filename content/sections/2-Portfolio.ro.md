@@ -1,6 +1,6 @@
 ---
-anchor: "Фото"
-header: "Фото "
+anchor: "Foto"
+header: "Foto "
 subheader: "Я обязательно напишу Алине весь текст."
 portfolios: [
   {
@@ -9,7 +9,7 @@ portfolios: [
     header: "",
     subheader: "",
     content: "2018 год, соревнования по удалению экстремальных вмятин в г. Киев. ",
-    extraInfo: []
+    extraInfo: [""]
   },
   {
     imageFileName: "portfolio/02-thumbnail.jpg",
@@ -17,7 +17,7 @@ portfolios: [
     header: "",
     subheader: "",
     content: "2019 год, соревнования по удалению вмятин в Германии",
-    extraInfo: []
+    extraInfo: [""]
   },
   {
     imageFileName: "portfolio/03-thumbnail.jpg",
@@ -25,7 +25,7 @@ portfolios: [
     header: " ",
     subheader: "",
     content: "Курс обучения по удалению вмятин без покраски (рабочий процесс ).",
-    extraInfo: []
+    extraInfo: [""]
   },
   {
     imageFileName: "portfolio/04-thumbnail.jpg",
@@ -33,7 +33,7 @@ portfolios: [
     header: "",
     subheader: "",
     content: "Удаление сложной вмятины без покраски. Время работы - 2 рабочих дня",
-    extraInfo: []
+    extraInfo: [""]
   },
   {
     imageFileName: "portfolio/05-thumbnail.jpg",
@@ -41,7 +41,7 @@ portfolios: [
     header: "",
     subheader: "",
     content: "Удаление вмятины без покраски. Время работы - 1 рабочий день",
-    extraInfo: []
+    extraInfo: [""]
   },
   {
     imageFileName: "portfolio/06-thumbnail.jpg",

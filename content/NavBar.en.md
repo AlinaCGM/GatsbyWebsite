@@ -1,8 +1,5 @@
 ---
-# brand: {
-#     imageFileName: "logos/cardent.jpg",
-#     href: "content/assets/images/logos/cardent.jpg"
-#     },
-brand: "Logo"
-menuText: "Меню "
+brand: {imageFileName: "logos/cardent.svg"},
+href: "#!"
+menuText: "Меню"
 ---

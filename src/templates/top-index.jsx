@@ -19,6 +19,7 @@ import "../style/main.scss";
 /**
  * get file name list from content/sections folder
  */
+
 export const query = graphql`
   query IndexQuery($langKey: String!) {
     site {
@@ -150,8 +151,8 @@ IndexPage.propTypes = {
 
 IndexPage.defaultProps = {
   pageContext: {
-    langKey: "en",
-    defaultLang: "en",
+    langKey: "ру",
+    defaultLang: "ру",
     langTextMap: {},
   },
 };

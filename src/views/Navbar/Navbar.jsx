@@ -9,6 +9,7 @@ import useWindowOnScroll from "hooks/useWindowOnScroll";
 import useSmoothScrollTo from "hooks/useSmoothScrollTo";
 import Icon from "components/Icon";
 import NavItem from "components/NavItem";
+import Logo from "content/assets/images/logos/cardent.svg";
 
 import "./Navbar.scss";
 
@@ -44,15 +45,16 @@ const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
       expanded={expanded}
     >
       <Container>
+      {/* <Logo/> */}
         <Navbar.Brand className="cursor-pointer" onClick={handleBrandClick}>
-          {brand}
+        {brand}
         </Navbar.Brand>
         <Navbar.Toggle onClick={toggleMenu} aria-label="Toggle navigation">
           {menuText}
           <Icon iconName="BarsIcon" />
         </Navbar.Toggle>
         <Navbar.Collapse>
-          <Nav className="text-uppercase ml-auto">
+          <Nav className="text-uppercase fs-1 ml-auto">
             {anchors.map((anchor) => (
               <NavItem key={anchor} to={anchor} onClick={closeMenu} />
             ))}

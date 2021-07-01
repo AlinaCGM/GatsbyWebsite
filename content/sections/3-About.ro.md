@@ -1,6 +1,6 @@
 ---
-anchor: "о нас"
-header: "о нас"
+anchor: "DESPRE NOI"
+header: "DESPRE NOI"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 timeline: [
   {

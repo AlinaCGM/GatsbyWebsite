@@ -1,27 +1,28 @@
 ---
-anchor: "Services"
+anchor: "Услуги"
 header: "Услуги"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 services: [
   {
-    iconName: "ShoppingCartIcon",
+    imageFileName: "portfolio/icon1.jpg",
     header: "Удаление парковочных вмятин",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    content: "Вмятины, которые образовались на кузове автомобиля после неудачной парковки."
   },
   {
-    iconName: "LaptopIcon",
+    imageFileName: "portfolio/icon2.jpg",
     header: "Удаление вмятин после града",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    content: "Ливень вперемешку с летящими с неба ледышками способен без проблем пробить не только стекла, но и покрыть весь кузов автомобиля десятками мелких и крупных вмятин."
   },
   {
-    iconName: "LockIcon",
-    header: "Рихтовка под покрас (без нанесения шпаклевки)",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    imageFileName: "portfolio/icon3.jpg",
+    header: "Рихтовка под покраску (без нанесения шпаклевки)",
+    content: "Высокоточная рихтовка методом PDR (Paintless dent repair). Выведение плоскости панелей автомобиля в идеальный уровень, что позволяет минимизировать процесс шпаклевания или вовсе исключает его."
+  },
+ {
+    imageFileName: "portfolio/icon4.jpg",
+    header: "Обучающий курс по удалению вмятин без покраски",
+    content: "Обучающий курс позволяющий за 10 дней освоить азы удаления вмятин без покраски  с автомобиля."
   }
-  #  iconName: "LockIcon",
-  #   header: "Обучающий курс по удалению вмятин без покраски",
-  #   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-  # }
   
 ]
 ---
