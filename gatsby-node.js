@@ -41,7 +41,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }`,
     `type Brand { 
       imageFileName: String 
-    }`
+    }`,
 
     `type Service {
       iconName: String
