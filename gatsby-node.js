@@ -32,6 +32,7 @@ exports.createSchemaCustomization = ({ actions }) => {
   const typeDefs = [
     "type MarkdownRemark implements Node { frontmatter: Frontmatter }",
     `type Frontmatter {
+      brand: String
       anchor: String
       jumpToAnchor: String
       jumpToAnchorText: String
