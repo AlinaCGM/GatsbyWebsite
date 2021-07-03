@@ -1,5 +1,5 @@
 ---
-brand: {imageFileName: "logos/cardent.svg"},
+brand: {imageFileName: "logos/cardent.svg"}
 href: "#!"
 menuText: "Меню"
 ---

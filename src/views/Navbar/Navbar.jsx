@@ -47,7 +47,7 @@ const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
       <Container>
       {/* <Logo/> */}
         <Navbar.Brand className="cursor-pointer" onClick={handleBrandClick}>
-        {brand}
+        {/*brand*/}{'test'}
         </Navbar.Brand>
         <Navbar.Toggle onClick={toggleMenu} aria-label="Toggle navigation">
           {menuText}
