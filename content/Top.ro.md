@@ -1,5 +1,5 @@
 ---
-header: "ai încredere în profesionist!"
+header: "cardent"
 subheader: "Welcome To Our Studio!"
 imageFileName: "header-bg.jpg"
 jumpToAnchor: "Услуги"

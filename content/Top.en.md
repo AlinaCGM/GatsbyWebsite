@@ -1,6 +1,6 @@
 ---
-header: "доверяйте професcионалам!"
-subheader: "Welcome To Our Studio!"
+header: "cardent"
+subheader: "paintless paint repair"
 imageFileName: "header-bg.jpg"
 jumpToAnchor: "Услуги"
 jumpToAnchorText: "Узнать больше"

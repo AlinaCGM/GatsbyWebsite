@@ -9,7 +9,7 @@ import useWindowOnScroll from "hooks/useWindowOnScroll";
 import useSmoothScrollTo from "hooks/useSmoothScrollTo";
 import Icon from "components/Icon";
 import NavItem from "components/NavItem";
-import Logo from "content/assets/images/logos/cardent.svg";
+// import Logo from "content/assets/images/logos/cardent.svg";
 
 import "./Navbar.scss";
 
