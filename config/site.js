@@ -1,5 +1,5 @@
 module.exports = {
-  title: "CarDent",
+  title: "CarService",
   keywords: [
     "car service",
     "Вмятина",
