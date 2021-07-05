@@ -39,10 +39,10 @@ LanguageSelector.propTypes = {
 };
 
 LanguageSelector.defaultProps = {
-  defaultLang: "ру",
-  langKey: "ру",
+  defaultLang: "ru",
+  langKey: "ru",
   langTextMap: {
-    en: "Русский",
+    ru: "Русский",
     ro: "Română",
   },
 };

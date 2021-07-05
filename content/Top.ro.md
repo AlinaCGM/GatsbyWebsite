@@ -1,6 +1,6 @@
 ---
 header: "cardent"
-subheader: "Welcome To Our Studio!"
+subheader: "Welcome To Service!"
 imageFileName: "header-bg.jpg"
 jumpToAnchor: "Услуги"
 jumpToAnchorText: "Află mai multe"
