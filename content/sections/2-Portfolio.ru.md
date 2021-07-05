@@ -49,7 +49,7 @@ portfolios: [
     header: "",
     subheader: "",
     content: "Удаление вмятин под под покраску. Время работы 1 рабочий день",
-    extraInfo: [""]
+    extraInfo: []
   }
 ]
 ---

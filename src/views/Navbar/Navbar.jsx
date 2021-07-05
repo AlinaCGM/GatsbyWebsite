@@ -9,7 +9,6 @@ import useWindowOnScroll from "hooks/useWindowOnScroll";
 import useSmoothScrollTo from "hooks/useSmoothScrollTo";
 import Icon from "components/Icon";
 import NavItem from "components/NavItem";
-// import Logo from "content/assets/images/logos/cardent.svg";
 
 import "./Navbar.scss";
 
@@ -45,9 +44,8 @@ const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
       expanded={expanded}
     >
       <Container>
-      {/* <Logo/> */}
         <Navbar.Brand className="cursor-pointer" onClick={handleBrandClick}>
-        {/* brand */}{'test'}
+        {/* brand */}{''}
         </Navbar.Brand>
         <Navbar.Toggle onClick={toggleMenu} aria-label="Toggle navigation">
           {menuText}
